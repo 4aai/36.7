@@ -6,7 +6,7 @@
 
 
 constexpr auto DATA_BASE        = "QODBC"           ;
-constexpr auto HOST_NAME        = "192.168.1.208"   ;//"localhost";
+constexpr auto HOST_NAME        = "localhost"       ;
 constexpr auto DATA_BASE_NAME   = "PostgreSQL35W"   ;
 constexpr auto USER_NAME        = "postgres"        ;
 constexpr auto PASSWORD         = "password123"     ;
