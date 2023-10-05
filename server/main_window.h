@@ -48,5 +48,5 @@ private slots:
     void on_showChatPushButton_clicked              ();
     void on_disconnectUserPushButton_clicked        ();
     void on_banUserPushButton_clicked               ();
-    void on_allUsersRadioButton_clicked();
+    void on_allUsersRadioButton_clicked             ();
 };
