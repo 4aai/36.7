@@ -11,15 +11,15 @@ namespace Ui
 class LoginWindow : public QWidget
 {
     Q_OBJECT
-    Ui::LoginWindow*    _ui;
+    Ui::LoginWindow*    _ui    ;
     QTcpSocket*         _socket;
 
 public:
-    explicit LoginWindow(QTcpSocket* socket, QWidget *parent = nullptr);
-            ~LoginWindow()                                             ;
-    void     LoginResult(size_t command)                               ;
+    explicit LoginWindow     (QTcpSocket* socket, QWidget *parent = nullptr);
+            ~LoginWindow     ()                                             ;
+    void     LoginResult     (size_t command)                               ;
 
 private slots:
-    void closeWidget()          ;
-    void on_okButton_clicked()  ;
+    void closeWidget()                                                      ;
+    void on_okButton_clicked ()                                             ;
 };
