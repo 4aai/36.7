@@ -19,15 +19,15 @@ class RegistrationWindow : public QWidget
 
 public:
     explicit RegistrationWindow (QTcpSocket* socket, QWidget *parent = nullptr);
-            ~RegistrationWindow ();
+            ~RegistrationWindow ()                                             ;
 
     auto     getName            ()          -> QString const { return _userName; }
     auto     getLogin           ()         -> QString const { return _userLogin; }
     auto     getPassword        ()      -> QString const { return _userPassword; }
-    void RegistrationResult     (size_t command)                               ;
+    void     RegistrationResult (size_t command)                               ;
 
 private slots:
-    void closeWidget();
-    void on_okButton_clicked();
-    void on_registrationResultLabel_linkActivated(const QString &link);
+    void closeWidget                                      ()                   ;
+    void on_okButton_clicked                              ()                   ;
+    void on_registrationResultLabel_linkActivated         (const QString &link);
 };
