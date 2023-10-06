@@ -76,7 +76,7 @@
        </font>
       </property>
       <property name="title">
-       <string>User menu</string>
+       <string>MENU</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -272,7 +272,7 @@ color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), sto
            </font>
           </property>
           <property name="text">
-           <string>Users online</string>
+           <string>online list:</string>
           </property>
          </widget>
         </item>
@@ -360,7 +360,7 @@ color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), sto
            </font>
           </property>
           <property name="text">
-           <string>private chat</string>
+           <string>private chat:</string>
           </property>
          </widget>
         </item>
@@ -412,7 +412,7 @@ color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), sto
                   </font>
                  </property>
                  <property name="text">
-                  <string>Chat with</string>
+                  <string>private chat with</string>
                  </property>
                 </widget>
                </item>
@@ -488,7 +488,7 @@ color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), sto
                 </font>
                </property>
                <property name="text">
-                <string>New private messages (in real time)</string>
+                <string>all incoming private messages </string>
                </property>
                <property name="checked">
                 <bool>true</bool>
@@ -599,7 +599,7 @@ color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), sto
             <enum>Qt::RightToLeft</enum>
            </property>
            <property name="text">
-            <string>Message to all</string>
+            <string>general message</string>
            </property>
            <property name="checked">
             <bool>true</bool>
@@ -624,7 +624,7 @@ color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), sto
               <enum>Qt::RightToLeft</enum>
              </property>
              <property name="text">
-              <string>Private message</string>
+              <string>private message</string>
              </property>
             </widget>
            </item>
@@ -738,7 +738,7 @@ color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), sto
          </font>
         </property>
         <property name="text">
-         <string>Enter message:</string>
+         <string>type message here:</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>

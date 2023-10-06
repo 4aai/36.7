@@ -30,7 +30,7 @@ public:
     auto    getCurLogin                     ()                                            -> QString     const;
     void    setCurLogin                     (const QString& newCurLogin)                                      ;
     void    EnterUserInChat                 (const QString& login, const QString& users)                      ;
-    void    BanUser                         ()                                                                ;
+    void    BanUser();
     void    AddUsersInCombobox              (      QString  str)                                              ;
     void    ReceiveCommandMessageFromServer (      QString  cmd)                                              ;
     void    ReceiveMessagesBetweenTwoUsers  (      QString  str)                                              ;
